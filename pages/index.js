@@ -59,14 +59,16 @@ export default function IndexPage() {
         It's possible we have discoveries like the tobacco link to lung cancer
         that we simply don't talk about. These would be important results that
         are buried in the literature. The goal of this site is to surface
-        important studies that might be neglected, and to serve as a reminder of
-        long-forgotten science that at one point had a big impact.
+        important studies that might be neglected, and to page homage to science
+        that made a splash.
       </p>
-      <h3>Sign up for updates</h3>
+      <h3>Get notified with new studies</h3>
       <ConvertKitForm />
       <hr />
-      <div style={{ opacity: 0.5, fontSize: "0.75em", textAlign: "center" }}>
-        Made by <a href="https://markmiro.com">Mark Miro</a>
+      <div style={{ fontSize: "0.75em", textAlign: "center" }}>
+        Made by Mark Miro
+        {" / "}
+        <a href="mailto:contact@markmiro.com?subject=10xScience">Contact ✉️</a>
       </div>
       <div style={{ height: "1em" }} />
       <div
