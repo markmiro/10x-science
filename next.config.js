@@ -1,10 +1,13 @@
+const config = require("./stuff/config").config;
+
 module.exports = {
   async redirects() {
     return [
       {
         source: "/submit",
-        destination: "https://google.com"
-      }
+        destination: config.submitStudyUrl,
+        permanent: false,
+      },
     ];
-  }
+  },
 };
