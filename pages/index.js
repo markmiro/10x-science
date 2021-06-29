@@ -44,23 +44,29 @@ export default function IndexPage() {
       <h3>What counts as 10x</h3>
       <ul>
         <li>
-          Nothing too niche. Looking in unique places is likely to yield unique
-          results. The goal of this site is to collect studies that are relevant
-          to the broader population.
+          <b>Not too niche.</b> Before getting a driver's license in the US, you
+          need to learn how to coexist with motorcyclists (though they make up
+          only a small minority of motorists). If you want to submit a finding
+          about a niche group, be prepared to explain how they affect the
+          average person.
         </li>
         <li>
-          Not something obvious. I'm sure your chance of getting hit by a car
-          goes up 10x if you stand in the middle of the road wearing all black
-          at night compared to staying home.
+          <b>Not obvious.</b> I'm sure your chance of getting hit by a car goes
+          up 10x if you stand in the middle of the road wearing all black at
+          night compared to staying home. Valuable discoveries are unintuitive
+          or surprising.
         </li>
       </ul>
       <h3>Why</h3>
       <p>
-        It's possible we have discoveries like the tobacco link to lung cancer
-        that we simply don't talk about. These would be important results that
-        are buried in the literature. The goal of this site is to surface
-        important studies that might be neglected, and to page homage to science
-        that made a splash.
+        The goal of this site is to surface important studies and research that
+        might be neglected. Why neglected? Peter Thiel says: "Brilliant thinking
+        is rare, but courage is in even shorter supply than genius." Some
+        findings might be hard to accept, or take time to incorporate into our
+        perception of the world. Studies that show a 10x differences are also
+        more likely to survive the replication crisis. I believe there are many
+        discoveries like the tobacco's link to lung cancer that we're afraid to
+        talk about. These would be important results that can benefit us all.
       </p>
       <h3>Get notified with new studies</h3>
       <ConvertKitForm />
