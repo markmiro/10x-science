@@ -38,10 +38,11 @@ export default function IndexPage() {
           <a
             href={config.submitStudyUrl}
             style={{
-              fontWeight: "bold",
-              color: "lime",
-              background: "black",
-              padding: "3px"
+              display: "inline-block",
+              color: "white",
+              background: "var(--blue-dark)",
+              padding: "6px 12px",
+              textDecoration: "none",
             }}
           >
             Submit a study ↗
@@ -89,7 +90,7 @@ export default function IndexPage() {
         style={{
           display: "flex",
           alignItems: "flex-end",
-          justifyContent: "center"
+          justifyContent: "center",
         }}
       >
         <div style={{ width: ".25em", height: ".25em", background: "black" }} />

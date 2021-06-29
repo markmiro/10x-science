@@ -23,6 +23,10 @@ hr {
   margin: 1.5em 0;
 }
 
+:root {
+  --blue-dark: #0d19b3;
+}
+
 a:any-link {
-  color: #0d19b3;
+  color: var(--blue-dark);
 }
