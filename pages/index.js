@@ -24,7 +24,15 @@ export default function IndexPage() {
         <li>
           Motorcyle riders have a{" "}
           <a href="https://pubmed.ncbi.nlm.nih.gov/19540959/">30x</a> risk of
-          death in a crash than people driving other vehicles.
+          death in a crash compared to people driving other vehicles.
+        </li>
+        <li>
+          A number of people (about a quarter of CNN viewers) believe the number
+          of unarmed black suspects shot by cops is{" "}
+          <a href="https://www.rasmussenreports.com/public_content/politics/partner_surveys/liberal_media_viewers_are_misinformed_about_crime_in_america">
+            10x
+          </a>{" "}
+          higher than it is.
         </li>
         <li>
           <a
