@@ -1,40 +1,5 @@
-import Link from "next/link";
-import Image from "next/image";
 import Head from "next/head";
-import { config } from "../stuff/config";
 import "../stuff/index.css";
-
-function Nav() {
-  return (
-    <nav
-      style={{
-        padding: "1em .5em",
-        borderBottom: "1px solid",
-        textAlign: "center"
-      }}
-    >
-      <Link href="/">
-        <a style={{ fontWeight: "bold" }}>Home</a>
-      </Link>
-      {/* {" / "}
-        <Link href="/about">
-          <a>About</a>
-        </Link> */}
-      {" / "}
-      <Link href={config.submitStudyUrl}>
-        <a>Submit a study&nbsp;↗</a>
-      </Link>
-      {" / "}
-      <Link href="/sign-up">
-        <a>Sign up for updates&nbsp;↗</a>
-      </Link>
-      {/* {" / "} */}
-      {/* <Link href="/submit">
-            <a>Discuss on Discord&nbsp;↗</a>
-          </Link> */}
-    </nav>
-  );
-}
 
 export default function App({ Component, pageProps }) {
   return (
@@ -66,7 +31,7 @@ export default function App({ Component, pageProps }) {
           height: "25vmin",
           // padding: "1em",
           background: "#000",
-          color: "white"
+          color: "white",
         }}
       >
         {/* <img src="/10x-science-logo-white.svg" /> */}
@@ -74,7 +39,7 @@ export default function App({ Component, pageProps }) {
           style={{
             display: "flex",
             alignItems: "flex-end",
-            justifyContent: "center"
+            justifyContent: "center",
           }}
         >
           <div
