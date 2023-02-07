@@ -1,4 +1,4 @@
-import { ConvertKitForm } from "../stuff/ConvertKitForm";
+import { ConvertKitForm } from "../ConvertKitForm";
 
 const fullListUrl =
   "https://www.notion.so/markmiro/10x-Science-cbe517733fa4452aaf6a9f2e2042f729";
